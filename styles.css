@@ -1,0 +1,234 @@
+:root{
+    --main: rgb(114, 62, 62); /*Main Color - Theme*/
+}
+/*First Setup for HTML - Reset CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+br{
+    height:100px;
+}
+
+
+
+/*Navbar CSS*/
+.nav-bar{
+    top: 0;
+    position: block;
+    z-index: 2;
+}
+.navbar-brand{
+    margin-left: 15px;
+}
+.navbar-brand img{
+    height: 50px;
+}
+.brand-name{
+    display: inline-block;
+}
+.brand-name h1{
+    color: black;
+    font-size: 25px;
+    display: inline;
+    font-weight: bold;
+}
+.brand-name span{
+    color: rgb(165, 34, 34);
+}
+.nav-bar .fa-bars{
+    font-size: 35px;
+    color: var(--main);
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar-nav{
+    float: right;
+    text-align: right;
+    margin-right: 10%;
+}
+.nav-link{
+    color: var(--main) !important;
+    margin-right: 20%;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+/*Container*/
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+
+/*Introduction CSS*/
+.introduction{
+    margin-top: 200px;
+}
+.introduction h1{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.introduction p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*Animated Intro content*/
+.go-btn{
+    padding: 20px 10px;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0) !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: transparent;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.c-btn{
+    text-align: center;
+    align-items: center;
+}
+.btn-svg{
+    height:17px;
+    color: #ffff;
+    animation: mover 1s infinite alternate;
+}
+@keyframes mover{
+    0% {transform: translateY(0);}
+    100% {transform: translateY(10px);}
+}
+.btn-svg path{
+    fill: #ffff;
+}
+
+
+
+/*Section Content CSS*/
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom: 2rem;
+}
+  
+.card h3 {
+    margin-bottom: 2rem;
+}
+  
+.card img {
+    height: 400px;
+    margin: 0;
+}
+  
+.card > div {
+    padding: 2rem;
+}
+  
+.card:nth-child(even) img {
+    order: 2;
+}
+  
+  
+.buy-btn {
+    display: inline-block;
+    background: #000;
+    color: #fff !important;
+    padding: 0.8rem 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+.btn:hover {
+    opacity: 0.8;
+}
+  
+@media(max-width:600px) {
+    .card {
+      display: block;
+    }
+}
+
+
+
+/*Footer CSS*/
+.footer-basic {
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-basic li {
+    padding: 0 10px;
+  }
+  
+  .footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity: 1;
+  }
+  
+  .footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+  }
+  
