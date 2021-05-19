@@ -76,8 +76,10 @@
             </div>
             <div class="col">
               <h3>Chihuahua</h3>
-                <p>Donec scelerisque purus faucibus mauris lacinia lobortis. Donec massa leo, fermentum id dapibus ut, placerat et nunc. Quisque maximus elit vel neque pretium, at tristique arcu tempor. Ut commodo leo a sapien vehicula, sit amet commodo risus scelerisque. Aliquam est lectus, cursus quis mi eu, vehicula fringilla arcu. Suspendisse sed fringilla velit. Suspendisse potenti. Suspendisse potenti. Nulla in quam tellus.</p>
-                <a href="#" class="buy-btn">Buy Now~!</a>
+              <p>
+                Chihuahua là giống chó lâu đời nhất tại Mỹ nhưng có nguồn gốc từ Mexico và được thế giới biết đến nhờ người Trung Quốc. Đến cuối thế kỷ 19, Chihuahua mới xuất hiện ở châu Âu. Tên của giống chó này được lấy từ tên bang Chihuahua của Mexico, nơi các nhà thám hiểm tìm ra chúng.
+              </p>
+                <a href="#" class="buy-btn">Bắt ngay~!</a>
             </div>
             <br>
             <hr>
@@ -86,8 +88,11 @@
           <section class="row" data-aos="fade-left">
             <div class="col">
               <h3>Corgi</h3>
-                <p>Donec scelerisque purus faucibus mauris lacinia lobortis. Donec massa leo, fermentum id dapibus ut, placerat et nunc. Quisque maximus elit vel neque pretium, at tristique arcu tempor. Ut commodo leo a sapien vehicula, sit amet commodo risus scelerisque. Aliquam est lectus, cursus quis mi eu, vehicula fringilla arcu. Suspendisse sed fringilla velit. Suspendisse potenti. Suspendisse potenti. Nulla in quam tellus.</p>
-                <a href="#" class="buy-btn">Buy Now~!</a>
+                <p>
+                  Chó Corgi tên đầy đủ là Pembroke Welsh Corgi. Trong đó, theo tiếng Wales được dịch ra là "chú chó lùn" - tên gọi này đúng như hình dáng bên ngoài của Corgi và gắn liền với tên địa phương tìm thấy chúng tại Pembrokeshire, xứ Wales. 
+                  Theo như nhiều tài liệu lưu trữ, các nhà nghiên cứu chỉ ra rằng giống chó Corgi đã có niên đại lên đến 3000 năm. Chú Corgi đầu tiên được ghi nhận tại xứ Wales
+                </p>
+                <a href="#" class="buy-btn">Bắt ngay~!</a>
             </div>
             <div class="col-md-6">
               <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/introduction/corgi.jpg" alt="Chihuahua" />
@@ -106,8 +111,11 @@
             </div>
             <div class="col">
               <h3>Husky</h3>
-                <p>Donec scelerisque purus faucibus mauris lacinia lobortis. Donec massa leo, fermentum id dapibus ut, placerat et nunc. Quisque maximus elit vel neque pretium, at tristique arcu tempor. Ut commodo leo a sapien vehicula, sit amet commodo risus scelerisque. Aliquam est lectus, cursus quis mi eu, vehicula fringilla arcu. Suspendisse sed fringilla velit. Suspendisse potenti. Suspendisse potenti. Nulla in quam tellus.</p>
-                <a href="#" class="buy-btn">Buy Now~!</a>
+                <p>
+                  Theo các tài liệu nghiên cứu, Husky là loài chó cỡ trung, thuộc vào nhóm những con chó kéo xe có nguồn gốc từ vùng Đông Bắc Siberia của nước Nga giá lạnh. Husky có họ hàng rất gần với giống chó Samoyed và Alaskan Malamute.
+                  Vào năm 1908, chúng được đem đến vùng Alaska của nước Mỹ, đây là thời kỳ phát triển mạnh của công cuộc khai thác vàng vì thế người dân nơi đây thường dùng chó Husky để kéo xe bởi chúng chạy rất khỏe với tốc độ cực nhanh.
+                </p>
+                <a href="#" class="buy-btn">Bắt ngay~!</a>
             </div>
             <br>
             <hr>
@@ -116,8 +124,11 @@
           <section class="row" data-aos="fade-left">
             <div class="col">
               <h3>Shiba</h3>
-                <p>Donec scelerisque purus faucibus mauris lacinia lobortis. Donec massa leo, fermentum id dapibus ut, placerat et nunc. Quisque maximus elit vel neque pretium, at tristique arcu tempor. Ut commodo leo a sapien vehicula, sit amet commodo risus scelerisque. Aliquam est lectus, cursus quis mi eu, vehicula fringilla arcu. Suspendisse sed fringilla velit. Suspendisse potenti. Suspendisse potenti. Nulla in quam tellus.</p>
-                <a href="#" class="buy-btn">Buy Now~!</a>
+              <p>
+                Shiba Inu có nguồn gốc từ Nhật Bản là một trong sáu giống chó bản địa của đất nước mặt trời mọc: Akita, Shikoku, Kai Dog, Hokkaido, Kishu và Shiba Inu. Trước đây loài Shiba Inu đã được sử dụng chủ yếu như một con chó săn để đuổi các loài chim nhỏ, thỉnh thoảng người ta mới sử dụng nó để đi săn lợn rừng.
+                Tên Shiba được đặt tên theo một cây bụi ở nơi chúng hay đi săn, Shiba có nghĩa là “cây cọ”. Cũng có một giả thuyết khác: theo ngôn ngữ cổ, Shiba có nghĩa là nhỏ bé, có thể cái tên của loài này được đặt do liên quan đến kích thước nhỏ bé của nó.
+              </p>
+                <a href="#" class="buy-btn">Bắt ngay~!</a>
             </div>
             <div class="col-md-6">
               <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/introduction/shiba.jpg" alt="Chihuahua" />
