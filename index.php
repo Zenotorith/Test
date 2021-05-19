@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="styles.css">
 
     <!--CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -66,42 +68,65 @@
 
         <br>
           <!--Section show pets-->
-            <section class="card row" style="display: grid; border: none; border-radius: 0;" data-aos="fade-left" id="chihuahua">
-              <div class="col-md-4"></div>
-                <img src="assets/img/introduction/chihuahua.jpg" alt="Chihuahua">
-              <div class="col-md-4">
-                <h3>Chihuahua</h3>
+          <section class="row" data-aos="fade-left">
+            <div class="col-md-6">
+              <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/introduction/chihuahua.jpg" alt="Chihuahua" />
+                
+              </figure>
+            </div>
+            <div class="col">
+              <h3>Chihuahua</h3>
                 <p>Donec scelerisque purus faucibus mauris lacinia lobortis. Donec massa leo, fermentum id dapibus ut, placerat et nunc. Quisque maximus elit vel neque pretium, at tristique arcu tempor. Ut commodo leo a sapien vehicula, sit amet commodo risus scelerisque. Aliquam est lectus, cursus quis mi eu, vehicula fringilla arcu. Suspendisse sed fringilla velit. Suspendisse potenti. Suspendisse potenti. Nulla in quam tellus.</p>
                 <a href="#" class="buy-btn">Buy Now~!</a>
-              </div>
-            </section>
+            </div>
+            <br>
+            <hr>
+          </section>
 
-            <section class="card" style="display: grid; border: none; border-radius: 0;" data-aos="fade-left" id="corgi">
-              <img src="assets/img/introduction/corgi.jpg" alt="Corgi">
-              <div>
-                <h3>Corgi</h3>
+          <section class="row" data-aos="fade-left">
+            <div class="col">
+              <h3>Corgi</h3>
                 <p>Donec scelerisque purus faucibus mauris lacinia lobortis. Donec massa leo, fermentum id dapibus ut, placerat et nunc. Quisque maximus elit vel neque pretium, at tristique arcu tempor. Ut commodo leo a sapien vehicula, sit amet commodo risus scelerisque. Aliquam est lectus, cursus quis mi eu, vehicula fringilla arcu. Suspendisse sed fringilla velit. Suspendisse potenti. Suspendisse potenti. Nulla in quam tellus.</p>
                 <a href="#" class="buy-btn">Buy Now~!</a>
-              </div>
-            </section>
+            </div>
+            <div class="col-md-6">
+              <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/introduction/corgi.jpg" alt="Chihuahua" />
+                
+              </figure>
+            </div>
+            <br>
+            <hr>
+          </section>
 
-            <section class="card" style="display: grid; border: none; border-radius: 0;" data-aos="fade-left" id="husky">
-              <img src="assets/img/introduction/husky.jpg" alt="Husky">
-              <div>
-                <h3>Husky</h3>
+          <section class="row" data-aos="fade-left">
+            <div class="col-md-6">
+              <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/introduction/husky.jpg" alt="Chihuahua" />
+                
+              </figure>
+            </div>
+            <div class="col">
+              <h3>Husky</h3>
                 <p>Donec scelerisque purus faucibus mauris lacinia lobortis. Donec massa leo, fermentum id dapibus ut, placerat et nunc. Quisque maximus elit vel neque pretium, at tristique arcu tempor. Ut commodo leo a sapien vehicula, sit amet commodo risus scelerisque. Aliquam est lectus, cursus quis mi eu, vehicula fringilla arcu. Suspendisse sed fringilla velit. Suspendisse potenti. Suspendisse potenti. Nulla in quam tellus.</p>
                 <a href="#" class="buy-btn">Buy Now~!</a>
-              </div>
-            </section>
+            </div>
+            <br>
+            <hr>
+          </section>
 
-            <section class="card" style="display: grid; border: none; border-radius: 0;" data-aos="fade-left" id="shiba">
-              <img src="assets/img/introduction/shiba.jpg" alt="Shiba">
-              <div>
-                <h3>Shiba</h3>
+          <section class="row" data-aos="fade-left">
+            <div class="col">
+              <h3>Shiba</h3>
                 <p>Donec scelerisque purus faucibus mauris lacinia lobortis. Donec massa leo, fermentum id dapibus ut, placerat et nunc. Quisque maximus elit vel neque pretium, at tristique arcu tempor. Ut commodo leo a sapien vehicula, sit amet commodo risus scelerisque. Aliquam est lectus, cursus quis mi eu, vehicula fringilla arcu. Suspendisse sed fringilla velit. Suspendisse potenti. Suspendisse potenti. Nulla in quam tellus.</p>
                 <a href="#" class="buy-btn">Buy Now~!</a>
-              </div>
-            </section>
+            </div>
+            <div class="col-md-6">
+              <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/introduction/shiba.jpg" alt="Chihuahua" />
+
+              </figure>
+            </div>
+            <br>
+            <hr>
+          </section>
           <!--End Section-->
       </main>
       <!--End Main Content-->
@@ -132,7 +157,8 @@
         duration: 1000 // values from 0 to 3000, with step 50ms
       });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
   
   </body>
 </html>
