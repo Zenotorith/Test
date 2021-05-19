@@ -66,9 +66,10 @@
 
         <br>
           <!--Section show pets-->
-            <section class="card" style="display: grid; border: none; border-radius: 0;" data-aos="fade-left" id="chihuahua">
-              <img src="assets/img/introduction/chihuahua.jpg" alt="Chihuahua">
-              <div>
+            <section class="card row" style="display: grid; border: none; border-radius: 0;" data-aos="fade-left" id="chihuahua">
+              <div class="col-md-4"></div>
+                <img src="assets/img/introduction/chihuahua.jpg" alt="Chihuahua">
+              <div class="col-md-4">
                 <h3>Chihuahua</h3>
                 <p>Donec scelerisque purus faucibus mauris lacinia lobortis. Donec massa leo, fermentum id dapibus ut, placerat et nunc. Quisque maximus elit vel neque pretium, at tristique arcu tempor. Ut commodo leo a sapien vehicula, sit amet commodo risus scelerisque. Aliquam est lectus, cursus quis mi eu, vehicula fringilla arcu. Suspendisse sed fringilla velit. Suspendisse potenti. Suspendisse potenti. Nulla in quam tellus.</p>
                 <a href="#" class="buy-btn">Buy Now~!</a>
